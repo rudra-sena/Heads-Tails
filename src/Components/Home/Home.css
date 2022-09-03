@@ -1,0 +1,14 @@
+.home{
+    background-color: #282c34;
+    color: #61dafb;
+    font-family:cursive;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h1{
+    margin: 2em;
+}

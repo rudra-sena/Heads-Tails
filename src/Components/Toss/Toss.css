@@ -1,0 +1,47 @@
+.toss{
+    background-color: #282c34;
+    color: #61dafb;
+    margin: 1em;
+    margin-right: 2em;
+    
+}
+
+.select{
+    display:flex;
+    margin: 2em;
+    justify-content: space-around;
+    color: #282c34;
+    background-color: #282c34;
+}
+
+.container{
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; 
+}
+
+.container div >div{
+    border: 1px solid #61dafb;
+    padding: 0.5em;
+}
+
+.submit{
+    border: 0.1em solid #61dafb;
+    color: #61dafb;
+    padding: 0.5em;
+    background-color: #282c34;
+    font-size: 1em;
+    margin: 1.5em 2.5em 1.5em 2.5em;
+    align-items: flex-start;
+    transition: 0.4s;
+    width: 8em;
+    font-family:cursive;
+  }
+  
+  .submit:hover{
+    cursor: pointer;
+    border: 2px solid #282c34;
+    color: #282c34;
+    background-color: #61dafb;
+  }

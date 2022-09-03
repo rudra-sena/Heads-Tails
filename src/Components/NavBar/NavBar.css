@@ -1,0 +1,30 @@
+.header {
+    background-color: #282c34;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-wrap: wrap;
+  }
+  
+  .nav-btn{
+    border: 0.1em solid #61dafb;
+    color: #61dafb;
+    padding: 0.5em;
+    background-color: #282c34;
+    font-size: 1em;
+    margin: 1.5em 2.5em 1.5em 2.5em;
+    align-items: flex-start;
+    transition: 0.4s;
+    width: 8em;
+    font-family:cursive;
+  }
+  
+  .nav-btn:hover{
+    cursor: pointer;
+    border: 2px solid #282c34;
+    color: #282c34;
+    background-color: #61dafb;
+  }

@@ -1,0 +1,14 @@
+.about{
+    background-color: #282c34;
+    color: #61dafb;
+    font-family:cursive;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+h3{
+    text-align: center;
+}
+
